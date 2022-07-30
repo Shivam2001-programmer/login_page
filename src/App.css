@@ -1,0 +1,24 @@
+
+.form-style{
+  width: 50%;
+  margin-left: 40%;
+  margin-top: 10%;
+}
+
+@media (max-width: 900px) {
+    .hide{
+      display: none;
+    }
+    .w-full{
+      width: 100%;
+    }
+    .form-style{
+      width: 100%;
+      padding: 2rem;
+      margin-left: 0;
+    }
+}
+
+/* .width: "50%", marginLeft: "40%", marginTop: "10%" ; */
+
+
